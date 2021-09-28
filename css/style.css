@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import url("base.css");
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  height: 648px;
+  width: 100%;
+  margin: 0 auto;
+}
+.blind {
+  display: none !important;
+}
+
+.header-wrap {
+  width: 1116px;
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+
+/*슬라이드 나머지 이미지 스크립트 for문을 이용해서 넣어보기*/
+.slide p:nth-child(1) {
+  width: 100%;
+  height: 648px;
+  background-image: url("../images/200820_video.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.slide-box {
+  width: 1116px;
+  position: relative;
+  margin: 0 auto;
+}
+.slide-video {
+  display: block;
+  width: 594px;
+  height: 334px;
+  position: absolute;
+  top: -440px;
+  right: 0;
+}
+.slide p:nth-child(1) video {
+  width: 100%;
+  height: 100%;
+}
+
+.s-menu {
+  width: 100%;
+  height: 58px;
+}
+.s-menu ul {
+  float: right;
+  margin-top: 30px;
+  height: 20px;
+  line-height: 20px;
+}
+.s-menu li {
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+.s-menu span {
+  margin: 5px;
+  font-weight: 500;
+  color:  #999
+}
+.s-menu select {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  border-radius: none;
+  background-color: #999;
+  color: none;
+  border: none;
+  outline: none;
+}
+
+
+.main-menu {
+  width: 100%;
+  background-color: #2c2a29;
+  height: 47px;
+}
+.gnb>li {
+  height: 47px;
+  float: left;
+  width: 150px;
+  height: 100%;
+  text-align: center;
+  line-height: 47px;
+  color: #d4b270;
+}
+.logo {
+  width: 216px !important;
+}
+.lnb {
+  display: none;
+}
+.lnb>li {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+  text-align: start;
+  padding-left: 15px;
+}
+.lnb-bg {
+  width: 1116px;
+  height: 339px;
+  background-image: url("../images/gnbBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: -130px;
+}
+.lnb-rowHeight {
+  line-height: 20px !important;
+  text-align: start !important;
+}
+
