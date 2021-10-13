@@ -224,3 +224,137 @@ section a {
   border: 3px solid #999;
   border-radius: 50%;
 }
+
+
+
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.abs>h4 {
+  font-size: 13px;
+  font-weight: bold;
+}
+.abs>p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.contents {
+  width: 1116px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contents>h2 {
+  font-size: 28px;
+  margin: 60px 0 10px 0;
+}
+.contents>h3 {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.contents-box {
+  display: flex;
+  justify-content: space-between;
+  width: 1116px;
+  height: 606px;
+  color: #fff;
+}
+
+.vertical {
+  width: 743px;
+  height: 606px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.vertical>a {
+  display: block;
+  width: 743px;
+  height: 200px;
+  background: url("../images/contentsImg\(1\).jpg");
+}
+.horizontal, .horizontal-second {
+  width: 743px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.horizontal>a, .horizontal-second>a {
+  display: block;
+  width: 370px;
+  height: 200px;
+}
+.horizontal>a:first-child {
+  background: url("../images/contentsImg\(2\).jpg");
+}
+.horizontal>a:last-child {
+  background: url("../images/contentsImg\(3\).jpg");
+}
+.horizontal-second>a:first-child {
+  background: url("../images/contentsImg\(4\).jpg");
+}
+.horizontal-second>a:last-child {
+  background: url("../images/contentsImg\(5\).jpg");
+}
+
+.vertical-second {
+  width: 370px;
+  height: 606px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.vertical-second>a{
+  display: block;
+  width: 370px;
+  height: 403px;
+  background: url("../images/contentsImg\(6\).jpg");
+}
+.vertical-second>div {
+  display: block;
+  width: 370px;
+  height: 200px;
+  background: url("../images/contentsImg\(7\).jpg");
+  box-sizing: border-box;
+  padding: 20px 20px;
+  color: #333;
+}
+.notice-title {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.notice-title>h5 {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.notice-title>a {
+  font-size: 12px;
+}
+.notice-num {
+  font-size: 14px;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.notice-num a {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(211, 211, 211);
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+.notice-num a>p:last-child {
+  color: #999;
+  font-size: 12px;
+}
