@@ -190,6 +190,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-position-y: -130px;
+  display: none;
 }
 .lnb-rowHeight {
   line-height: 20px !important;
